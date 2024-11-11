@@ -1,0 +1,31 @@
+$accent: #2B4074;
+$text-color: #4a4a4a;
+$bg-color: #F9F6E5;
+$default-color: #9B9B9B;
+
+// Это экстенд. Использование &__title { @extend %roboto-500; }
+%roboto-500 {
+  font-family: 'Roboto-Medium';
+  font-weight: 500;
+}
+
+
+%roboto-condesed-400 {
+  font-family: 'Roboto-Condensed-Regular';
+  font-width: 400;
+}
+
+%roboto-condensed-700 {
+  font-family: 'Roboto-Condensed-Bold';
+  font-width: roboto-condensed-700;
+}
+
+%dosis-300 {
+  font-family: 'Dosis-Light';
+  font-weight: 300;
+}
+
+%dosis-500 {
+  font-family: 'Dosis-Medium';
+  font-weight: 500;
+}
